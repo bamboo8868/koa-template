@@ -1,0 +1,24 @@
+{
+  "name": "koa-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bamboo8868/koa-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bamboo8868/koa-template/issues"
+  },
+  "homepage": "https://github.com/bamboo8868/koa-template#readme",
+  "dependencies": {
+    "ioredis": "^5.2.5",
+    "koa": "^2.14.1",
+    "koa-router": "^12.0.0"
+  }
+}
