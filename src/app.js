@@ -1,6 +1,6 @@
 const Koa = require('koa')
 const PORT = 8888;
-const Kernel = require('./middleware/kernels');
+const Kernel = require('./middlewares/kernels');
 
 
 async function parseArgs() {
@@ -24,7 +24,7 @@ async function main() {
             app.use(middleware);
         }
     }
-    app.listen(port,'0.0.0.0')
+    app.listen(PORT,'0.0.0.0')
 }
 
 
