@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "path": "#",
+    "name": "后台用户管理",
+    "child": [
+      {
+        "id": 11,
+        "path": "/api/company/lists",
+        "name": "公司管理"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "path": "",
+    "name": ""
+  }
+]

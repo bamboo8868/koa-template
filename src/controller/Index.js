@@ -1,7 +1,11 @@
 class Index {
-    async index(ctx) {
-        ctx.body = "hello world";
-    }
+
+	async index(ctx) {
+		ctx.json({
+			code:0
+		})
+	}
+
 }
 
-module.exports = new Index
+module.exports = new Index()
